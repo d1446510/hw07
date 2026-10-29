@@ -113,10 +113,12 @@ img {
 
 iframe {
     max-width: 100%;
+    width: 100%;
     height: auto;
+    aspect-ratio: 16 / 9; /* 自動維持 16:9 比例 */
     display: block;
-    margin: 10px 0;
-}
+    margin: 15px auto;
+    border-radius: 6px;
 
 /* ------------------------------------------
    HW07 三處行內樣式遷移至 CSS 類別的規則
